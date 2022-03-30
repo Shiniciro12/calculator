@@ -1,0 +1,110 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Viga;
+}
+
+body {
+	
+	background: white;
+	height: 637px;
+	background-image: url(./img/bg.jpeg);
+	padding-right: 20px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top: 0;
+  z-index:10;
+}
+
+.header-left {
+	text-align: center;
+  }
+
+.header-left h3 {
+	color: darkorange;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.chalk {
+	width: 1170px;
+	padding: 20px 15px;
+	margin: 0 auto;
+}
+  
+
+.screen {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgb(252, 205, 154);
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: none;
+}
+
+.container {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+	
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #475155;
+	color: white;
+	border-radius: 35px;
+}
+.button:hover {
+	background: #000000;
+}
+
+.btn-color {
+	color: rgb(252, 169, 15);
+	font-size: 30px;
+}
+
+.btn-color-equal {
+	background:rgb(252, 169, 15);
+	color: #fff;
+	font-size: 30px;
+}
+
+.btn-color-equal:hover {
+	background: #525b5f;
+}
+
+.btn-color-ac {
+	background:#525b5f;
+	color: rgb(255, 99, 99);
+}
+.btn-color-ac:hover {
+	background: rgb(32, 27, 27);
+}
+
+.textarea {
+	width: 404px;
+	margin: 4px;
+	font-size: 30px;
+	padding: 10px;
+	border: none;
+	text-align: right;
+	background: rgba(26, 5, 5, 1) ;
+	color: #fff;
+}
+
+
+
